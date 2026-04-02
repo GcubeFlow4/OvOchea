@@ -195,7 +195,7 @@
               notify("Going to next level bypass", "Next Level");
           }, 300);
     }
-    if (event.code === "KeyQ") {
+    if (keybindDown(event, "flagkeybind")) {
             let player = getPlayer();
             let flag = getFlag();
             player.x = flag.x;
